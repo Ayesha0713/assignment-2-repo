@@ -4,3 +4,55 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
+
+/* header styles */
+
+nav{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-title{
+ display: flex; 
+ gap: 15px;
+}
+
+.nav-title img{
+    width: 48px;
+    height: 50px;
+    margin-top: 27px;
+}
+
+.nav-title h1{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-title h1 span{
+    color: #FF5400;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    margin-left: 100px;
+}
+
+nav ul li{
+    font-size: 18px;
+    font-weight: 400;
+    list-style: none;
+}
+nav ul li a{
+    color: #424247;
+    text-decoration: none;
+}
+
+nav ul li a span{
+    color: #FF5400;
+    font-weight: 700;
+}
