@@ -602,6 +602,9 @@ footer p{
         flex-direction: column;
     }
 
+    .popular-tours-description{
+        width: 335px;
+    }
     .destination{
         width: 335px;
         height: 2500px;
