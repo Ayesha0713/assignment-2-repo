@@ -332,7 +332,7 @@ nav ul li a span{
 /* Choose section styles */
 
 .choose{
-    background-color: bisque;
+    background-color: #FFF;
     width: 1170px;
     height: 800px;
     margin: 70px auto;
@@ -386,20 +386,93 @@ nav ul li a span{
     margin: 20px auto;
 }
 
+/* newsletter section styles */
+
+.newsletter{
+    background-color: #FFF;
+    width: 1170px;
+    height: 450px;
+    margin: 70px auto;
+    display: flex;
+    gap: 24px;
+}
+
+.newsletter-form{
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-form h1{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-top: 20px;
+}
 
 
+.newsletter-form p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 40px;
+    padding-right: 84px;
+}
 
+.newsletter-form input{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
 
+.newsletter-form button{
+    width: 393px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 40px;
+}
 
+.newsletter-img{
+    background-image: url('../Images/Rectangle\ 8\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+}
 
+#discount {
+    background-color: #FF5400;
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    transform: rotate(-19.628deg);
+    line-height: 5px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
 
+#discount h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 40px;
+}
 
-
-
-
-
-
-
+#discount h2{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
 
 
 
