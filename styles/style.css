@@ -192,7 +192,7 @@ nav ul li a span{
 .destination{
     width: 1170px;
     height: 1100px;
-    background-color: aquamarine;
+    background-color: #FFF;
     margin: 0px auto;
 }
 
@@ -329,13 +329,62 @@ nav ul li a span{
     margin-bottom: 10px;
 }
 
+/* Choose section styles */
 
+.choose{
+    background-color: bisque;
+    width: 1170px;
+    height: 800px;
+    margin: 70px auto;
+}
 
+.choose-us-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
 
+#choose-us-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 247px 0px 247px;
+}
 
+.hotel-services{
+    display: flex;
+    gap: 24px;
+    padding-top: 50px;
+}
 
+.reason-container{
+    width: 573px;
+    height: 284px;
+    padding-left: 32px;
+}
 
+#one{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
 
+#two{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+#three{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 20px auto;
+}
 
 
 
