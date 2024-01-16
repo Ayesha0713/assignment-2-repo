@@ -50,6 +50,10 @@ nav{
     color: #FF5400;
 }
 
+.humbarger{
+    display: none;
+}
+
 nav ul{
     display: flex;
     gap: 40px;
@@ -529,4 +533,160 @@ footer p{
 
 .rights{
     padding-top: 70px;
+}
+
+
+/* Responsive media query */
+
+
+@media screen and (min-width:100px) and (max-width: 576px) {
+
+
+    .hide{
+        display: none;
+    }    
+
+    .header{
+        align-items: center;
+        width: 335px;
+        height: 650px;
+    }
+
+    nav{
+        width: 335px;
+        height: 64px;
+    }
+
+    .nav-title h1{
+        font-size: 20px;
+        display: inline-flex;
+        padding-top: 20px;
+    }
+
+    .humbarger{
+        display: inline-flex;
+        padding-left: 180px;
+    }
+
+    .banner{
+        width: 500px;
+        height: 600px;
+        background-repeat: no-repeat;
+        padding-left: 50px;
+    }
+
+    .banner-details h1{
+        padding: 0;
+    }
+
+    .banner-option{
+        position: relative;
+        right: 20%;
+        bottom: 5%;
+    }
+
+    .banner-details p{
+        padding: 0px;
+    }
+
+    .banner-option{
+        width: 255px;
+        height: 52px;
+        flex-direction: column;
+        line-height: 0;
+    }
+
+
+    .popular-tours{
+        height: 1100px;
+        flex-direction: column;
+    }
+
+    .destination{
+        width: 335px;
+        height: 2500px;
+    }
+
+    .destination-title h1{
+        padding: 0;
+    }
+
+    .destination-title p{
+        padding: 0;
+    }
+
+    .first-row, .second-row, .third-row{
+        flex-direction: column;
+    }
+
+    #first, #second, #third, #fourth, #fifth,  #sixth, #seventh{
+        width: 335px;
+        height: 170px;
+    }
+
+    .choose{
+        width: 335px;
+        height: 1200px;
+    }
+
+    #choose-us-description{
+        padding: 0;
+    }
+
+    .hotel-services{
+        flex-direction: column;
+    }
+
+    .reason-container{
+        padding: 0;
+    }
+
+    .newsletter{
+        width: 335px;
+        height: 900px;
+        flex-direction: column;
+    }
+
+    .newsletter-img{
+        width: 500px;
+    }
+
+    #discount{
+        width: 250px;
+        height: 150px;
+    }
+
+    footer{
+        width: 375px;
+        height: 309px;
+        padding-left: 80px;
+    }
+
+    footer div{
+        padding: 0;
+    }
+
+    footer div img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    footer div h1{
+        font-size: 21.543px;
+    }
+
+    footer p{
+        padding: 0;
+    }
+
+    footer img{
+        width: 174.322px;
+        height: 24px;
+    }
+
+    .social{
+        padding: 0;
+        padding-left: 100px;
+    }
+
 }
