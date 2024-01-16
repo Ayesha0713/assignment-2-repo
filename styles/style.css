@@ -777,8 +777,9 @@ footer p{
     }
 
     .popular-tours{
-        height: 1300px;
+        height: 1350px;
         flex-direction: column;
+        margin: 0;
     }
 
     .popular-tours-description{
@@ -787,6 +788,7 @@ footer p{
     .destination{
         width: 335px;
         height: 2500px;
+        margin: 100px;
     }
 
     .destination-title h1{
@@ -809,6 +811,7 @@ footer p{
     .choose{
         width: 335px;
         height: 1300px;
+        margin: 100px;
     }
 
     #choose-us-description{
@@ -834,10 +837,13 @@ footer p{
 
     .deals{
         width: 500px;
-        height: 1680px;
+        height: 1750px;
+        margin: 0;
     }
 
     .deals-description p{
+        width: 300px;
+        margin-left: 100px;
         padding: 0;
     }
 
@@ -868,8 +874,10 @@ footer p{
 
     .perfect-place{
         width: 375px;
-        height: 900px;
+        height: 850px;
         flex-direction: column;
+        margin: 0;
+        margin-bottom: 30px;
     }
 
     .place-info h1 {
@@ -892,8 +900,9 @@ footer p{
 
     .newsletter{
         width: 335px;
-        height: 900px;
+        height: 950px;
         flex-direction: column;
+        margin: 0;
     }
 
     .newsletter-img{
